@@ -1,0 +1,14 @@
+#pragma once
+
+#include <glm/glm.hpp>
+
+#define GL_SHADER_POSITION 0
+#define GL_SHADER_COLOR 1
+#define GL_SHADER_TEXTCOORD 2
+#define GL_SHADER_MVP 0
+
+enum SHADER_TYPE
+{
+    SHADER_POSITION_COLOR,
+    SHADER_POSITION_COLOR_TEXCOORD
+};

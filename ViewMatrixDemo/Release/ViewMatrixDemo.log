@@ -1,0 +1,38 @@
+﻿Build started 7/5/2016 6:08:09 PM.
+     1>Project "D:\OpenGL\ViewMatrixDemo\ViewMatrixDemo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinc /I"extern\freeglut-2.8.1\include" /I"extern\glew-1.10.0\include" /I"extern\glm-0.9.5.1" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"ViewMatrixDemoPCH.h" /Fp"Release\ViewMatrixDemo.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\ViewMatrixDemoPCH.cpp
+         ViewMatrixDemoPCH.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinc /I"extern\freeglut-2.8.1\include" /I"extern\glew-1.10.0\include" /I"extern\glm-0.9.5.1" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"ViewMatrixDemoPCH.h" /Fp"Release\ViewMatrixDemo.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Camera.cpp src\main.cpp
+         Camera.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\ViewMatrixDemo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"extern\freeglut-2.8.1\lib\x86" /LIBPATH:"extern\glew-1.10.0\lib\Release\Win32" freeglut_static.lib glew32s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\ViewMatrixDemo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\ViewMatrixDemo.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\main.obj
+         Release\ViewMatrixDemoPCH.obj
+         Generating code
+         Finished generating code
+     1>freeglut_static.lib(freeglut_init.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_init.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_state.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_state.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_window.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_window.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_callbacks.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_callbacks.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_main.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_main.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_display.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_display.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_structure.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_structure.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_input_devices.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_input_devices.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_gamemode.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_gamemode.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_joystick.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_joystick.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_spaceball.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_spaceball.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_cursor.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_cursor.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_menu.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_menu.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_font.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_font.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_font_data.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_font_data.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_stroke_roman.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_stroke_roman.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_stroke_mono_roman.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\OpenGL\ViewMatrixDemo\bin\vc110.pdb'; linking object as if no debug info
+         ViewMatrixDemo.vcxproj -> D:\OpenGL\ViewMatrixDemo\bin\ViewMatrixDemo.exe
+     1>Done Building Project "D:\OpenGL\ViewMatrixDemo\ViewMatrixDemo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.43

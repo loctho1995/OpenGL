@@ -1,0 +1,30 @@
+﻿Build started 13/06/2016 3:51:02 CH.
+     1>Project "D:\Learning\3DLearning\3DLearning\3DLearning.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\learning\3dlearning\3dlearning\main.cpp(68): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\learning\3dlearning\3dlearning\main.cpp(76): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\learning\3dlearning\3dlearning\main.cpp(80): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\learning\3dlearning\3dlearning\main.cpp(84): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\learning\3dlearning\3dlearning\main.cpp(88): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\learning\3dlearning\3dlearning\main.cpp(98): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\learning\3dlearning\3dlearning\main.cpp(136): warning C4305: '=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Learning\3DLearning\Debug\3DLearning.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Learning\3DLearning\Debug\3DLearning.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Learning\3DLearning\Debug\3DLearning.lib" /MACHINE:X86 Debug\Graphics3D.obj
+         Debug\Helper3D.obj
+         Debug\main.obj
+         Debug\MatrixFunc.obj
+         Debug\TimeCounter.obj
+     1>graphics.lib(dibutil.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'graphics.lib(dibutil.obj)' or at 'D:\Learning\3DLearning\Debug\vc120.pdb'; linking object as if no debug info
+     1>graphics.lib(drawing.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'graphics.lib(drawing.obj)' or at 'D:\Learning\3DLearning\Debug\vc120.pdb'; linking object as if no debug info
+     1>graphics.lib(file.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'graphics.lib(file.obj)' or at 'D:\Learning\3DLearning\Debug\vc120.pdb'; linking object as if no debug info
+     1>graphics.lib(misc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'graphics.lib(misc.obj)' or at 'D:\Learning\3DLearning\Debug\vc120.pdb'; linking object as if no debug info
+     1>graphics.lib(winbgi.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'graphics.lib(winbgi.obj)' or at 'D:\Learning\3DLearning\Debug\vc120.pdb'; linking object as if no debug info
+     1>graphics.lib(winthread.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'graphics.lib(winthread.obj)' or at 'D:\Learning\3DLearning\Debug\vc120.pdb'; linking object as if no debug info
+         3DLearning.vcxproj -> D:\Learning\3DLearning\Debug\3DLearning.exe
+     1>Done Building Project "D:\Learning\3DLearning\3DLearning\3DLearning.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.76

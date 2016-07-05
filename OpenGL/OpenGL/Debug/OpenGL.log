@@ -1,0 +1,79 @@
+﻿Build started 05/07/2016 9:32:13 SA.
+     1>Project "D:\Learning\OpenGL\OpenGL\OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"opengllib\glew-1.10.0\include" /I"opengllib\freeglut-2.8.1\include" /I"opengllib\glm-0.9.5.1" /Iopengllib\SOIL\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Learning\OpenGL\Debug\OpenGL.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"opengllib\freeglut-2.8.1\lib\x86" /LIBPATH:"opengllib\glew-1.10.0\lib\Release\Win32" /LIBPATH:opengllib\SOIL\lib freeglut_static.lib glew32s.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Learning\OpenGL\Debug\OpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Learning\OpenGL\Debug\OpenGL.lib" /MACHINE:X86 Debug\Camera3D.obj
+         Debug\Cube.obj
+         Debug\GLENUM.obj
+         Debug\main.obj
+         Debug\Model.obj
+         Debug\Renderer.obj
+         Debug\ShaderManager.obj
+         Debug\Texture2D.obj
+         Debug\TimeCounter.obj
+         Debug\Vertex.obj
+     1>Camera3D.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         freeglut_static.lib(freeglut_init.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>Camera3D.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>Model.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>Renderer.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>Texture2D.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>Model.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+     1>Model.obj : warning LNK4049: locally defined symbol ___glewDeleteBuffers imported
+     1>Model.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>Texture2D.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>Model.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+     1>Model.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+     1>Renderer.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+     1>Model.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+     1>Model.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>Renderer.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>Texture2D.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>Model.obj : warning LNK4049: locally defined symbol ___glewDeleteVertexArrays imported
+     1>Model.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+     1>Renderer.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+     1>Texture2D.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+     1>Renderer.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4fv imported
+     1>ShaderManager.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+     1>ShaderManager.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+     1>ShaderManager.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+     1>ShaderManager.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+     1>ShaderManager.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported
+     1>ShaderManager.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+     1>ShaderManager.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported
+     1>ShaderManager.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+     1>ShaderManager.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+     1>ShaderManager.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+     1>freeglut_static.lib(freeglut_init.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_init.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_main.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_main.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_display.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_display.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_callbacks.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_callbacks.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_state.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_state.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_window.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_window.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_structure.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_structure.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_input_devices.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_input_devices.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_gamemode.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_gamemode.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_joystick.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_joystick.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_cursor.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_cursor.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_menu.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_menu.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_spaceball.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_spaceball.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_font.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_font.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_font_data.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_font_data.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_stroke_roman.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_stroke_roman.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>freeglut_static.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'freeglut_static.lib(freeglut_stroke_mono_roman.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\Learning\OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'D:\Learning\OpenGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'D:\Learning\OpenGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'D:\Learning\OpenGL\Debug\vc120.pdb'; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'D:\Learning\OpenGL\Debug\vc120.pdb'; linking object as if no debug info
+         OpenGL.vcxproj -> D:\Learning\OpenGL\Debug\OpenGL.exe
+     1>Done Building Project "D:\Learning\OpenGL\OpenGL\OpenGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.02
